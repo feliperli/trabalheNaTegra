@@ -1,0 +1,50 @@
+$bg: #a8aaad;
+$frame: #717375;
+$monitor: #1a1a1a;
+
+ul {
+
+  list-style: none;
+}
+
+body {
+  background: $bg;
+}
+
+.machine {
+  display: flex;
+  justify-content: space-around;
+}
+
+.monitor{
+  width: 400px;
+  height: 340px;
+  background: $monitor;
+  top: 15px;
+  border-radius: 10%;
+  left: 50px;
+  top: 40px;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  display: inline;
+}
+
+.keyboard {
+  float: right;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  li {
+    margin: 10px;
+    width: 20%;
+  }
+}
+
+button {
+
+}
